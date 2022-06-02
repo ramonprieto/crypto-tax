@@ -4,7 +4,11 @@ from pprint import pprint
 import requests
 import click
 
-# TODO: TXS and Tokens to dataclasses
+# TODO: 
+#   - TXS and Tokens to dataclasses
+#   - Normalize Wrapped tokens
+#   - ERC721 and oracle
+#   - Faster oracle for native and ERC20 tokens
 
 def get_normal_transactions(chain, account):
 	normal_tx_request = (
